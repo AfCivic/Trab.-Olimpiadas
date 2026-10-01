@@ -1,8 +1,8 @@
-# 🏅 Sistema CRUD - Banco de Dados Olimpíadas
+# Sistema CRUD - Banco de Dados Olimpíadas
 
 Sistema completo de gerenciamento de dados olímpicos com interface web usando Streamlit e MySQL.
 
-## 📁 Estrutura do Projeto
+## Estrutura do Projeto
 
 ```
 projeto-olimpiadas/
@@ -14,7 +14,7 @@ projeto-olimpiadas/
 └── README.md                     # Este arquivo
 ```
 
-## 🔧 Instalação
+## Instalação
 
 ### 1. Instale as dependências
 
@@ -46,7 +46,7 @@ Copie todo o código da seção "ARQUIVO 2" do artifact e cole em um arquivo cha
 #### **Arquivo 3: `interface.py`**
 Copie todo o código da seção "ARQUIVO 3" do artifact e cole em um arquivo chamado `interface.py`
 
-## 🚀 Como Usar
+## Como Usar
 
 ### Passo 1: Popular o Banco de Dados
 
@@ -57,19 +57,19 @@ python popdados.py
 ```
 
 **O que ele faz:**
-- ✅ Remove o banco existente (se houver)
-- ✅ Cria o banco `olimpiadas_db`
-- ✅ Cria as tabelas: Pais, Olimpiada, Atleta, Evento, Compete
-- ✅ Importa os dados do CSV `olimpiadasfiltrado.csv`
-- ✅ Filtra dados de 2006 a 2016
+-  Remove o banco existente (se houver)
+-  Cria o banco `olimpiadas_db`
+-  Cria as tabelas: Pais, Olimpiada, Atleta, Evento, Compete
+-  Importa os dados do CSV `olimpiadasfiltrado.csv`
+-  Filtra dados de 2006 a 2016
 
 **Saída esperada:**
 ```
 ✓ Conectado ao MySQL Server versão 8.x.x
-🗑️  Banco de dados 'olimpiadas_db' removido (se existia)
+  Banco de dados 'olimpiadas_db' removido (se existia)
 ✓ Banco de dados 'olimpiadas_db' criado com sucesso!
 ✓ Todas as tabelas foram criadas/verificadas com sucesso!
-📂 Carregando CSV: olimpiadasfiltrado.csv
+ Carregando CSV: olimpiadasfiltrado.csv
 ✓ CSV carregado: XXXXX registros
 ✓ Após filtro (2006-2016): XXXXX registros
 ...
@@ -86,7 +86,7 @@ streamlit run interface.py
 
 O navegador abrirá automaticamente em `http://localhost:8501`
 
-## 📊 Estrutura do Banco de Dados
+##  Estrutura do Banco de Dados
 
 ### Tabelas
 
@@ -119,14 +119,14 @@ O navegador abrirá automaticamente em `http://localhost:8501`
    - `id_evento` (PK, FK)
    - `medalha` - Ouro/Prata/Bronze/Sem Medalha
 
-## 🎯 Funcionalidades da Interface
+##  Funcionalidades da Interface
 
 ### Para cada tabela você pode:
 
-- **📋 Visualizar**: Lista todos os registros em formato de tabela
-- **➕ Inserir**: Adiciona novos registros com formulário
-- **✏️ Atualizar**: Edita registros existentes
-- **🗑️ Deletar**: Remove registros (com confirmação)
+- ** Visualizar**: Lista todos os registros em formato de tabela
+- ** Inserir**: Adiciona novos registros com formulário
+- ** Atualizar**: Edita registros existentes
+- ** Deletar**: Remove registros (com confirmação)
 
 ### Navegação
 
@@ -134,7 +134,7 @@ O navegador abrirá automaticamente em `http://localhost:8501`
 2. Escolha a operação desejada
 3. Preencha os formulários e execute as ações
 
-## ⚠️ Notas Importantes
+##  Notas Importantes
 
 ### Restrições do Banco
 
@@ -154,7 +154,7 @@ O arquivo `olimpiadasfiltrado.csv` deve conter as seguintes colunas:
 CSV_FILE = 'caminho/para/seu/olimpiadasfiltrado.csv'
 ```
 
-## 🔄 Repopular o Banco
+##  Repopular o Banco
 
 Se precisar repopular o banco:
 
@@ -204,7 +204,7 @@ DB_PASSWORD=sua_senha
 DB_NAME=seu_banco
 ```
 
-## 📧 Suporte
+##  Suporte
 
 Se encontrar problemas:
 1. Verifique os logs no terminal

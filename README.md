@@ -167,23 +167,23 @@ Isso vai:
 2. Criar um novo banco limpo
 3. Reimportar todos os dados do CSV
 
-## 🛠️ Troubleshooting
+##  Troubleshooting
 
 ### Erro: "Can't connect to MySQL server"
-- ✅ Verifique se o XAMPP está rodando
-- ✅ Verifique se o módulo MySQL está ativo no XAMPP
+-  Verifique se o XAMPP está rodando
+-  Verifique se o módulo MySQL está ativo no XAMPP
 
 ### Erro: "Unknown database 'olimpiadas_db'"
-- ✅ Execute `python popdados.py` primeiro
+-  Execute `python popdados.py` primeiro
 
 ### Erro: "No module named 'streamlit'"
-- ✅ Instale as dependências: `pip install streamlit mysql-connector-python pandas python-dotenv`
+-  Instale as dependências: `pip install streamlit mysql-connector-python pandas python-dotenv`
 
 ### Erro ao inserir dados
-- ✅ Verifique se as chaves estrangeiras existem
-- ✅ Exemplo: Para inserir um Atleta, o País deve existir antes
+-  Verifique se as chaves estrangeiras existem
+-  Exemplo: Para inserir um Atleta, o País deve existir antes
 
-## 📝 Customização
+##  Customização
 
 ### Alterar o filtro de anos
 
@@ -214,4 +214,4 @@ Se encontrar problemas:
 
 ---
 
-**Desenvolvido com ❤️ usando Streamlit + MySQL**
+**Desenvolvido usando Streamlit + MySQL**
